@@ -1,0 +1,51 @@
+.first {
+	background-color:#7a5e62;
+	text-align:center;
+}
+
+.second  {
+	background-color:#7a5e62;
+	text-align:center;
+}
+
+.header {
+	padding:25px;
+	background-color:#969393;
+	text-align:center;
+	border-bottom:2px solid black;
+	color:white;
+}
+
+img {
+	width:100px;
+	height:130px;
+	padding:10px;
+}
+
+h4{
+	color:blue;
+}
+
+span{
+	color: #961920;
+}
+
+.card-group{
+	padding:30px;
+}
+
+
+.subheader{
+	padding:10px;
+}
+
+.footer{
+	background-color:#969393;
+	color:white;
+	text-align:center;
+	padding:25px;
+}
+
+h1{
+	padding:10px;
+}
