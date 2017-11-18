@@ -9,21 +9,21 @@ var badInvestments;
 
 $(document).ready(function() {
 
-    randomNumber = Math.floor(Math.random() * 70 + 50);
-    appleRandom = Math.floor(Math.random() * 12);
-    facebookRandom = Math.floor(Math.random() * 12);
-    amazonRandom = Math.floor(Math.random() * 12);
-    googleRandom = Math.floor(Math.random() * 12);
+    randomNumber = Math.floor(Math.random() * 101 + 19);
+    appleRandom = Math.floor(Math.random() * 11+ 1);
+    facebookRandom = Math.floor(Math.random() * 11 +1);
+    amazonRandom = Math.floor(Math.random() * 11 + 1);
+    googleRandom = Math.floor(Math.random() * 11 + 1);
     total=0;
     goodInvestments = 0;
     badInvestments = 0;
 
     function reset() {
-	    randomNumber = Math.floor(Math.random() * 70 + 50);
-	    appleRandom = Math.floor(Math.random() * 12);
-	    facebookRandom = Math.floor(Math.random() * 12);
-	    amazonRandom = Math.floor(Math.random() * 12);
-	    googleRandom = Math.floor(Math.random() * 12);
+	    randomNumber = Math.floor(Math.random() * 101 + 19);
+	    appleRandom = Math.floor(Math.random() * 11 + 1);
+	    facebookRandom = Math.floor(Math.random() * 11 + 1);
+	    amazonRandom = Math.floor(Math.random() * 11 + 1);
+	    googleRandom = Math.floor(Math.random() * 11 + 1);
 	    total=0;
 	    $('#message').html("");
 	    $('#total').html("");
